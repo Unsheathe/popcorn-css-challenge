@@ -3,9 +3,32 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
-header{
+header {
     background-color: #FFDBAA;
     text-emphasis-color: #553100;
+    margin: 0;
+    text-indent: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    /*container stuff
+    display: grid;
+    grid-template-columns: 50% 12.5% 12.5% 12.5% 12.5%;
+    padding: 10px;
+    */
+}
+body {
+    margin:0;
+    background-color: #D4A76A;
+    /*container stuff
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100px 100px;
+    column-gap: 5px;
+    row-gap: 5px;
+    */
+}
+h2{
+    text-align: center;
 }
 .row {
     display: flex;
@@ -18,8 +41,16 @@ header{
 .button {
     background-color: #805215;
     color: white;
+    text-align: center;
+    padding: 10px;
+    
 }
 .group{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
     box-shadow: black;
+    box-sizing: border-box;
+    margin:5%;
 }
