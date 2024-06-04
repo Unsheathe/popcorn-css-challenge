@@ -3,3 +3,23 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+header{
+    background-color: #FFDBAA;
+    text-emphasis-color: #553100;
+}
+.row {
+    display: flex;
+}
+.column{
+    flex: 50%;
+    padding: 10px;
+    /*height: 300px*/
+}
+.button {
+    background-color: #805215;
+    color: white;
+}
+.group{
+    background-color: white;
+    box-shadow: black;
+}
